@@ -1,0 +1,645 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap');
+
+/* awal navbar */
+.navbar {
+  background-color: #2161ce;
+  border-radius: 6px;
+}
+.nav-link {
+  margin-left: 10px;
+}
+
+.navbar-brand {
+  font-size: 18pt;
+  font-weight: bold;
+}
+
+/* akhir navbar */
+
+/* home */
+.workhome {
+  margin-top: 80px;
+  text-align: center;
+  padding: 4rem 1rem;
+  height: 560px;
+}
+
+.workhome h3 {
+  font-size: 28pt;
+  font-family: 'Poppins', sans-serif;
+  color: #2161ce;
+  margin-top: -20px;
+}
+
+.workhome p {
+  font-family: 'Nunito Sans', sans-serif;
+  font-size: 16pt;
+  color: #082948;
+  margin-top: 20px;
+  padding: 6px;
+  opacity: 80%;
+}
+
+.col-lg-5 {
+  margin-top: -110px;
+  text-align: center;
+}
+
+.tombol {
+  border-radius: 40px;
+  color: #ffffff;
+  margin-top: 10px;
+}
+/* akhir home */
+
+/* info panel */
+.info-panel {
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.5);
+  border-radius: 6px;
+  margin-top: 60px;
+  background-color: white;
+  padding: 30px;
+}
+
+.info-panel h3 {
+  font-size: 28pt;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-top: 10px;
+  color: #2161ce;
+  font-family: 'Poppins', sans-serif;
+}
+
+.info-panel p {
+  font-size: 14pt;
+  color: #082948;
+  margin-top: 10px;
+  font-family: 'Nunito Sans', sans-serif;
+  opacity: 80%;
+}
+/* akhir info panel */
+
+/* about */
+.about {
+  margin-top: 100px;
+  height: 500px;
+  text-align: center;
+}
+
+.about h3 {
+  font-size: 28pt;
+  color: #2161ce;
+  margin-top: 120px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.about p {
+  font-size: 16pt;
+  margin-top: 20px;
+  color: #082948;
+  font-family: 'Nunito Sans', sans-serif;
+  opacity: 80%;
+  line-height: 30px;
+}
+
+.busines img {
+  width: 500px;
+  margin-top: 30px;
+}
+/* akhir about */
+
+/* our team */
+
+#ourteam {
+  margin-top: 500px;
+  height: 100px;
+}
+
+#ourteam h2 {
+  font-family: 'Poppins', sans-serif;
+  color: #2161ce;
+  margin-bottom: 30px;
+  font-size: 28pt;
+}
+
+.card {
+  border-color: #ffffff;
+  box-shadow: none;
+  width: 200px;
+  margin: auto;
+  cursor: pointer;
+  margin-bottom: -16px;
+}
+
+.card img:hover {
+  opacity: 0.5;
+  filter: alpha (opacity=50);
+}
+.card-body {
+  text-align: center;
+}
+
+.card-body a {
+  text-decoration: none;
+}
+.card-body h3 {
+  font-size: 16pt;
+  color: #4e4e4e;
+}
+
+.card-body h3:hover {
+  color: #2161ce;
+}
+
+.card-body p {
+  font-size: 12pt;
+  margin-top: -6px;
+  opacity: 80%;
+  color: #082948;
+  font-family: 'Nunito Sans', sans-serif;
+}
+/* akhir our team */
+
+/* footer */
+
+#fooot {
+  margin-top: 2740px;
+}
+.foot {
+  max-width: 1170px;
+  margin: auto;
+  color: #ffffff;
+}
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+ul {
+  list-style: none;
+  margin-left: -30px;
+}
+.footer {
+  background-color: #082948;
+  padding: 60px 0;
+  border-radius: 6px;
+  height: 960px;
+}
+
+.footer-col p {
+  font-family: 'Nunito Sans', sans-serif;
+  font-size: 16px;
+  color: #ffffff;
+}
+
+.footer-col-md-12 p {
+  font-size: 14px;
+  margin-top: 20px;
+  font-family: 'Nunito Sans', sans-serif;
+}
+.footer-col-md-12 img {
+  margin-top: 30px;
+  width: 80px;
+}
+
+.footer-col {
+  width: 25%;
+  padding: 0 15px;
+}
+
+.footer-col h4 {
+  font-size: 18px;
+  color: #ffffff;
+  text-transform: capitalize;
+  margin-bottom: 40px;
+  font-weight: 300;
+  font-family: 'Poppins', sans-serif;
+  position: relative;
+}
+
+.footer-col h4::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: -10px;
+  background-color: #e91e63;
+  height: 2px;
+  box-sizing: border-box;
+  width: 50px;
+}
+
+.footer-col ul li:not(:last-child) {
+  margin-bottom: 10px;
+}
+
+.footer-col ul li a {
+  font-size: 16px;
+  text-transform: capitalize;
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: 300;
+  color: #bbbbbb;
+  display: block;
+  font-family: 'Nunito Sans', sans-serif;
+  transition: all 0.3s ease;
+}
+
+.footer-col ul li a:hover {
+  color: #ffffff;
+  padding-left: 10px;
+}
+
+.footer-col .social-links a {
+  display: inline-block;
+  height: 40px;
+  width: 40px;
+  background-color: rgb(255, 255, 255, 0.2);
+  margin: 0 10px 10px 0;
+  text-align: center;
+  line-height: 40px;
+  border-radius: 50%;
+  color: #ffffff;
+  transition: all 0.5s ease;
+}
+
+.footer-col .social-links a:hover {
+  color: #24262b;
+  background-color: #ffffff;
+}
+
+/* akhir footer */
+
+/* skill */
+.keahlian {
+  margin-top: 100px;
+}
+.i1 img {
+  width: 240px;
+  border-radius: 50%;
+  margin-top: 90px;
+}
+
+.mh-skills {
+  padding-right: 60px;
+  color: rgb(24, 24, 24);
+  height: 660px;
+}
+
+.mh-professional-skill h1 {
+  margin-top: 140px;
+  text-align: center;
+  font-size: 26px;
+  font-weight: 600;
+  font-family: 'Poppins', sans-serif;
+  color: #000000;
+}
+
+.mh-skills h3 {
+  font-size: 14px;
+  margin-bottom: 10px;
+  text-align: left;
+  font-family: 'Poppins', sans-serif;
+  margin-top: 30px;
+}
+
+.mh-professional-skill {
+  padding-left: 10%;
+}
+
+.mh-professional-skill h4 {
+  font-family: 'Nunito Sans', sans-serif;
+  font-size: 16px;
+  margin-top: -4px;
+  margin-bottom: 5%;
+}
+.candidatos {
+  position: relative;
+  margin-bottom: 10px;
+  font-family: poppins, sans-serif;
+}
+
+.candidatos .parcial {
+  display: inline-block;
+  width: 100%;
+  vertical-align: middle;
+}
+
+.candidatos .parcial .info {
+  position: relative;
+  font-family: poppins;
+}
+
+.candidatos .parcial .info .name {
+  position: absolute;
+  top: 12px;
+  left: 0;
+  font-size: 14px;
+  opacity: 0.9;
+  font-family: 'Nunito Sans', sans-serif;
+}
+
+.candidatos .parcial .info .percentage-num {
+  position: absolute;
+  top: 12px;
+  left: 90%;
+  font-weight: normal;
+  font-size: 14px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.candidatos .parcial .progressbar {
+  position: relative;
+  width: 100%;
+  height: 7px;
+  margin: 39px 0 2px;
+  border-radius: 10px;
+  background: rgb(223, 223, 223);
+}
+
+.candidatos .parcial .percentagem {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 7px;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  background: #4e4e4e;
+
+  -webkit-transition: 3s all;
+  -webkit-animation-duration: 3s;
+  -webkit-animation-name: animationProgress;
+
+  font-family: 'poppins', sans-serif;
+}
+
+@keyframes animationProgress {
+  from {
+    width: 0;
+  }
+}
+
+/* akhir skill */
+
+/* overlay */
+.overlay {
+  width: 0;
+  height: 0;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: rgba(255, 255, 255, 0);
+  transition: 0.8s;
+  z-index: 9999;
+}
+
+.overlay:target {
+  bottom: 0;
+  right: 0;
+  background-color: rgb(255, 255, 255, 0.9);
+  width: auto;
+  height: auto;
+}
+
+.overlay:target .keahlian {
+  animation: zoomdanfade 1s;
+  width: auto;
+  height: 100%;
+  overflow: scroll;
+  padding: 10px;
+  text-align: center;
+  background-color: rgb(255, 255, 255, 0.9);
+  margin-top: 0;
+}
+
+/* ANIMASI overlay*/
+
+@keyframes zoomdanfade {
+  0% {
+    transform: scale(0);
+    opacity: 0;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+/* akhir animasi */
+
+.overlay .close {
+  position: absolute;
+  top: 40px;
+  left: 82%;
+  color: #4e4e4e;
+  text-decoration: none;
+  font-weight: 700;
+  cursor: pointer;
+  font-size: 28px;
+}
+
+.overlay .close:hover {
+  color: #ff0000;
+}
+/* akhir overlay */
+
+/* DESKTOP VERSION */
+@media (min-width: 992px) {
+  /* navbar */
+
+  .navbar-brand {
+    font-size: 28pt;
+    font-weight: bold;
+    margin-left: 10px;
+  }
+
+  .nav-link {
+    margin-left: 39px;
+    margin-right: 10px;
+  }
+
+  /* akhir navbar */
+
+  /* home */
+
+  .workhome {
+    text-align: left;
+    height: 768px;
+    padding-top: 4rem 0 0 0;
+  }
+  .workhome p {
+    font-size: 18pt;
+    color: #082948;
+    margin-top: 30px;
+    font-family: 'Nunito Sans', sans-serif;
+  }
+
+  .workhome h3 {
+    font-size: 48pt;
+    font-family: 'Poppins', sans-serif;
+    color: #2161ce;
+    margin-top: 40px;
+  }
+
+  .images {
+    margin-top: 40px;
+    margin-left: 0px;
+    width: 478px;
+  }
+  .col-lg-6 {
+    margin-left: 10px;
+    text-align: left;
+    margin-top: 40px;
+  }
+  .tombol {
+    border-radius: 40px;
+    color: #ffffff;
+    margin-top: 20px;
+  }
+
+  /* akhir home */
+
+  /* info panel */
+
+  .info-panel {
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.5);
+    border-radius: 6px;
+    margin-top: -130px;
+    background-color: white;
+    padding: 30px;
+    height: 160px;
+  }
+  .info-panel h3 {
+    font-size: 28pt;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-top: 10px;
+    color: #2161ce;
+  }
+  .info-panel p {
+    font-size: 16pt;
+    color: #082948;
+    margin-top: 10px;
+  }
+  /* akhir info panel */
+
+  /* about */
+  .about {
+    margin-top: 130px;
+    height: 768px;
+  }
+
+  .about h3 {
+    font-size: 28pt;
+    color: #2161ce;
+    text-align: left;
+    margin-top: 220px;
+    font-family: 'Poppins', sans-serif;
+  }
+
+  .about p {
+    font-size: 18pt;
+    margin-top: 30px;
+    text-align: left;
+    font-family: 'Nunito Sans', sans-serif;
+    line-height: 35px;
+  }
+
+  .busines img {
+    width: 478px;
+    margin-right: -100px;
+    margin-top: 90px;
+  }
+  /* akhir about */
+
+  /* our team */
+  #ourteam {
+    margin-top: 180px;
+    height: 768px;
+  }
+
+  #ourteam h2 {
+    font-family: 'Poppins', sans-serif;
+    color: #2161ce;
+    margin-bottom: 40px;
+    font-size: 28pt;
+    margin-top: 90px;
+  }
+
+  /* awal overlay  */
+  .i1 img {
+    width: 250px;
+    margin-top: 110px;
+    margin-left: 100px;
+  }
+
+  .mh-skills {
+    padding-right: 60px;
+    height: 600px;
+    margin-top: 20px;
+    margin-left: -90px;
+  }
+
+  .mh-professional-skill h1 {
+    text-align: left;
+    font-size: 34px;
+  }
+
+  .overlay .close {
+    top: 74px;
+    left: 80%;
+    font-size: 28px;
+  }
+
+  .mh-professional-skill h4 {
+    font-size: 18px;
+    text-align: left;
+    margin-top: -4px;
+    margin-bottom: 5%;
+  }
+  /* akhir overlay */
+
+  /* awal footer */
+  #fooot {
+    margin-top: 380px;
+  }
+
+  .footer {
+    background-color: #082948;
+    padding: 60px 0;
+    border-radius: 6px;
+    height: 600px;
+  }
+
+  .footer-col-md-12 p {
+    font-size: 16px;
+    margin-top: 20px;
+    font-family: 'Nunito Sans', sans-serif;
+  }
+  .footer-col-md-12 img {
+    margin-top: 140px;
+    width: 100px;
+  }
+
+  /* akhir footer */
+}
+
+/* Desktop 2 */
+@media (max-width: 767px) {
+  /* footer */
+  .footer-col {
+    width: 50%;
+    margin-bottom: 30px;
+  }
+  /* akhir footer */
+}
+
+@media (max-width: 574px) {
+  /* footer */
+  .footer-col {
+    width: 100%;
+  }
+  /* akhir footer */
+}
